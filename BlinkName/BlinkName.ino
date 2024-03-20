@@ -21,8 +21,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-
 void setup() {
+  // put your setup code here, to run once:
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
@@ -54,15 +54,15 @@ void loop() {
   {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--",
   "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."};
 
-  const int unit = 1000;
+  const int unit = 250;
   const int dot_units = 1;
   const int dash_units = 3;
   const int letter_part_units = 1;
-  const int letter_space_units = 3;
+  const int letter_space_units = 5;
 
   // Main Code
 
-  String name = "William";
+  String name = "Will";
   int name_len = name.length();
 
   for(int i = 0; i < name_len; i++)
