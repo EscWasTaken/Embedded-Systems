@@ -1,0 +1,16 @@
+async-timeout==4.0.3
+asyncio==3.4.3
+bleak==0.22.1
+certifi==2024.2.2
+charset-normalizer==3.3.2
+colorzero==2.0
+dbus-fast==2.21.2
+gpiozero==2.0.1
+idna==3.7
+lgpio==0.2.2.0
+pycparser==2.22
+python-dotenv==1.0.1
+requests==2.32.2
+RPi.GPIO==0.7.1
+typing_extensions==4.11.0
+urllib3==2.2.1
